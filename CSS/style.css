@@ -189,6 +189,7 @@ h2 {
     height: 800px;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 
@@ -257,5 +258,48 @@ margin-top: 20px;
 }
 
 .contato{
-    
+    margin-top: 20vh;
+}
+
+
+#titulo-contato h2{
+    font-family: consolas;
+    color: aqua;
+    font-size: 6vh;
+    font-weight: bold;
+    text-align: left;
+}
+
+#titulo-contato p{
+    color: #fff;
+    text-align: left;
+    font-family: consolas;
+    font-size: 2vh;
+
+}
+
+
+
+#contato-content{
+    align-items: baseline;
+    justify-content: center;
+
+}
+
+#contato-form{
+    background-color: #2B3035;
+    height: 400px;
+    border-radius: 15px;
+    padding: 40px;
+    color: #fff;
+    text-align: left;
+    max-width: 530px;
+}
+
+#button-contato{
+    width:100%;
+    margin-top: 60px;
+    background-color: aqua;
+    color: #2B3035;
+    font-weight: bold;
 }
