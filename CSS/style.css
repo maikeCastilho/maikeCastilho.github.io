@@ -136,6 +136,8 @@ h2 {
 
 #foto-perfil {
     border-radius: 600px;
+    border-style: solid;
+    border-color: aqua;
 }
 
 #sobre-texto {
