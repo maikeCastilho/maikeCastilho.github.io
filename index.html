@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="icon" href="IMG/favicon.ico" type="image/x-icon">
     <title>Maike.dev</title>
+
 </head>
 
 <body>
@@ -78,6 +79,7 @@
                     <a href="https://api.whatsapp.com/send?phone=5524999656300" target="_blank" rel="external"><button
                             id="botao-inicio" class="btn btn-primary btn-lg">WhatsApp</button></a>
                 </div>
+
             </div>
         </div>
     </section>
@@ -111,46 +113,66 @@
             <h2> Minhas Skills</h2>
         </div>
 
-        <div id="skills-icones" class="container text-center">
+        <div id="skills-icones" class="container text-center ">
             <div class="container text-center">
                 <div class="row row-cols-3 row-cols-lg-9 g-2 g-lg-3">
+                    
                     <div id="icon-name" class="col">
-                        <div class="p-3">
-                            <i id="icon-skill" class="fa-brands fa-html5"></i>
+                        <div class="p-3 ">
+                            <i id="icon-skill" data-bs-toggle="toltip" data-bs-placement="top"
+                                data-bs-trigger="hover focus"
+                                data-bs-content="(Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web."
+                                class="fa-brands fa-html5 "></i>
                             <p id="icon-name-skills">Html</p>
                         </div>
                     </div>
 
-                    <div id="icon-name"class="col">
+                    <div id="icon-name" class="col">
                         <div class="p-3">
-                            <i id="icon-skill" class="fa-brands fa-css3-alt"></i>
+                            <i id="icon-skill" class="fa-brands fa-css3-alt" data-bs-toggle="toltip" data-bs-placement="top" data-bs-trigger="hover focus"
+                                data-bs-content="CSS é uma linguagem de estilo, também conhecida como folhas de estilo em cascata. É usada para personalização visual de um site."></i>
                             <p id="icon-name-skills">Css</p>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="p-3"> 
-                            <i id="icon-skill" class="fa-brands fa-square-js"></i>
-                            <p id="icon-name-skills"> javascript</p>
-                        </div>
-                    </div>
+
                     <div class="col">
                         <div class="p-3">
-                            <i id="icon-skill" class="fa-brands fa-bootstrap"></i>
+                            <i id="icon-skill" class="fa-brands fa-square-js" data-bs-toggle="toltip" data-bs-placement="top" data-bs-trigger="hover focus"
+                            data-bs-content="Uma linguagem de programação que permite a você implementar itens complexos em páginas web"></i>
+                            <p id="icon-name-skills">javascript</p>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="p-3">
+                            <i id="icon-skill" class="fa-brands fa-bootstrap" data-bs-toggle="toltip" data-bs-placement="bottom" data-bs-trigger="hover focus"
+                            data-bs-content="Framework front-end que fornece estruturas de CSS para a criação de sites e aplicações responsivas de forma rápida e simples."></i>
                             <p id="icon-name-skills">bootstrap</p>
                         </div>
                     </div>
+
                     <div class="col">
                         <div class="p-3">
-                            <i id="icon-skill" class="fa-solid fa-database"></i>
+                            <i id="icon-skill" class="fa-solid fa-database" data-bs-toggle="toltip" data-bs-placement="bottom" data-bs-trigger="hover focus"
+                            data-bs-content="A Linguagem de consulta estruturada (SQL) é uma linguagem de programação para armazenar e processar informações em um banco de dados relacional."></i>
                             <p id="icon-name-skills">MySql</p>
                         </div>
                     </div>
+
                     <div class="col">
                         <div class="p-3">
-                            <i id="icon-skill" class="fa-brands fa-python"></i>
+                            <i id="icon-skill" class="fa-brands fa-python" data-bs-toggle="toltip" data-bs-placement="bottom" data-bs-trigger="hover focus"
+                            data-bs-content="Linguagem de programação amplamente usada em aplicações da Web, desenvolvimento de software, ciência de dados e machine learning (ML)."></i>
                             <p id="icon-name-skills">Python</p>
                         </div>
                     </div>
+
+                    <script>//codigo para ativação do popover!
+                        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="toltip"]'))
+                        var popoverList = popoverTriggerList.map(function (toltipTriggerEl) {
+                            return new bootstrap.Popover(toltipTriggerEl)
+                        })
+                    </script>
                 </div>
             </div>
         </div>
@@ -277,7 +299,7 @@
     <section class="contato">
         <div class="container text-center">
             <div id="contato-content" class="row">
-                
+
                 <div id="titulo-contato" class="col-md-5">
                     <h2>Vamos trabalhar <br>juntos!</h2>
                     <p>Me fale sobre seu projeto, retornarei o mais rápido possível.</p>
@@ -291,8 +313,9 @@
                     </div>
                     <div class="mb-3">
                         <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Me fale sobre seu projeto..."></textarea>
-                      
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            placeholder="Me fale sobre seu projeto..."></textarea>
+
                         <button id="button-contato" class=" btn btn-primary btn-lg" type="button">Enviar</button>
                     </div>
 
