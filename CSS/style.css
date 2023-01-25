@@ -317,3 +317,58 @@ margin-top: 20px;
 .carousel-control-next{
 z-index: 0;
 }
+
+.modal-dialog{
+    color: #2B3035;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+#modal-button{
+    background-color: #2B3035;
+  
+}
+
+.rodape{
+    margin-top: 20vh;
+    margin-left: 0px;
+    background-color: black;
+    height: 300px;
+    max-width: 100%;
+    text-align: center;
+    font-family: consolas;
+    padding-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+#heart{
+    color: aqua;
+}
+
+#footer-text{
+    color: #6b6b6b;
+    font-weight: 700;
+    margin-top: 100px;
+}
+
+#icon-footer{
+    color: #6b6b6b;
+    font-size: 30px;
+}
+
+#icon-footer:hover{
+    color: aqua;
+}
+
+.rodape p{
+    color: #6b6b6b;
+
+
+}
+
+.rodape h5{
+    color: aqua;
+    text-align: left;
+}
+
