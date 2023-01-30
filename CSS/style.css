@@ -17,7 +17,7 @@
 }
 
 body {
-    background-color: #252525;
+    background-color: #191919;
   
 }
 
@@ -67,7 +67,7 @@ i {
     padding-top: 30vh;
     text-align: left;
     color: rgb(255, 255, 255);
-    font-family: consolas;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #titulo-main {
@@ -137,15 +137,14 @@ h2 {
 #foto-perfil {
     border-radius: 600px;
     border-style: solid;
-    border-color: aqua;
 }
 
 #sobre-texto {
     color: aliceblue;
     text-align: justify;
     min-width: 50%;
-    font-family: consolas;
-    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
     padding: 10px;
 }
 
@@ -212,6 +211,12 @@ h2 {
     font-weight: 900;
     font-size: 8vh;
     padding-top: 7px;
+}
+
+@media screen and (max-width: 500px ){
+    #titulo-section h2{
+        font-size: 40px;
+    }
 }
 
 .carousel-inner{
