@@ -8,12 +8,12 @@
 
 @font-face {
     font-family: test;
-    src: url(../FONT/TypoGraphica_demo.otf) format('opentype');
+    src: url(../font/TypoGraphica_demo.otf) format('opentype');
 }
 
 @font-face{
     font-family: consolas;
-    src: url(../FONT/CONSOLAB.TTF);
+    src: url(../font/CONSOLAB.TTF);
 }
 
 body {
