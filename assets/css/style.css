@@ -200,7 +200,7 @@ h2 {
 #titulo-section{
     color: rgb(0, 247, 255);
     display: flex;
-    gap: 1vh;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     font-size: 50px;
@@ -209,7 +209,17 @@ h2 {
     font-size: 8vh;
     padding-top: 7px;
 }
+#titulo-section2{
+    display: flex;
+    align-items: center;
+    gap: 1vh;
 
+}
+#titulo-section p{
+    color:#6b6b6b;
+    font-family: consolas;
+    font-size: 25px;
+}
 .carousel-inner{
 margin-top: 20px;
 }

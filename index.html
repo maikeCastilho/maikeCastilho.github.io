@@ -13,8 +13,9 @@
     <link rel="icon" href="assets/img/favicon.ico" type="img/x-icon">
     <title>Maike.dev</title>
 </head>
+
 <body>
-    
+
     <div id="particles-js"></div>
 
     <script type="text/javascript" src="assets/vendor/js/particles.js"></script>
@@ -83,8 +84,11 @@
 
     <section id="sobre">
         <div id="titulo-section">
-            <i id="titulo-icon" class="fa-solid fa-circle-info"></i>
-            <h2>Sobre Mim</h2>
+            <div id="titulo-section2">
+                <i id="titulo-icon" class="fa-solid fa-circle-info"></i>
+                <h2>Sobre Mim</h2>
+            </div>
+            <p>um pouco sobre minha trajetória.</p>
         </div>
 
         <div class="container text-center">
@@ -106,8 +110,11 @@
 
     <section id="skills">
         <div id="titulo-section">
-            <i id="titulo-icon" class="fa-sharp fa-solid fa-code"></i>
-            <h2> Minhas Skills</h2>
+            <div id="titulo-section2">
+                <i id="titulo-icon" class="fa-sharp fa-solid fa-code"></i>
+                <h2> Minhas Skills</h2>
+            </div>
+            <p>Clique no ícone para saber mais.</p>
         </div>
 
         <div id="skills-icones" class="container text-center ">
@@ -183,8 +190,11 @@
 
     <section id="projetos">
         <div id="titulo-section">
-            <i id="titulo-icon" class="fa-solid fa-mug-saucer"></i>
-            <h2>Meus Projetos</h2>
+            <div id="titulo-section2">
+                <i id="titulo-icon" class="fa-solid fa-mug-saucer"></i>
+                <h2>Meus Projetos</h2>
+            </div>
+            <p>Conheça mais a fundo meu trabalho.</p>
         </div>
 
         <div id="carouselExampleIndicators" class="carousel slide container-md">
@@ -307,11 +317,11 @@
                     <p>Me fale sobre seu projeto, retornarei o mais rápido possível.</p>
                 </div>
 
-                <div id="contato-form" class="col-md-7">
+                <form id="contato-form" class="col-md-7 needs-validation" novalidate>
                     <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label" required>Email</label>
+                        <label for="exampleFormControlInput1" class="form-label">Email</label>
                         <input type="email" class="form-control" id="exampleFormControlInput1"
-                            placeholder="name@example.com">
+                            placeholder="name@example.com"  required>
                     </div>
                     <div class="mb-3">
                         <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
@@ -344,7 +354,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </form>
             </div>
         </div>
     </section>
@@ -355,19 +365,21 @@
 
         <div class="col">
             <p>Me acompanhe também nas redes:</p>
-            <a href="https://www.linkedin.com/in/maike-castilho-5161191b1/"><i id="icon-footer" class="fa-brands fa-linkedin"></i></a>
-            <a href="https://www.instagram.com/maikecastilho_/"><i id="icon-footer" class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/maike-castilho-5161191b1/"><i id="icon-footer"
+                    class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/maikecastilho_/"><i id="icon-footer"
+                    class="fa-brands fa-instagram"></i></a>
             <a href=""><i id="icon-footer" class="fa-solid fa-envelope"></i></a>
             <a href="https://twitter.com/CastilhoMaike"><i id="icon-footer" class="fa-brands fa-twitter"></i></a>
         </div>
 
-        <div  class="col-md-5">
+        <div class="col-md-5">
             <h5>"Da qui a um ano você vai desejar ter começado hoje."</h5>
         </div>
 
 
         <div id="footer-text">
-            <span >Feito com<i id="heart" class="fa-solid fa-heart"> </i> em volta redonda </span>
+            <span>Feito com<i id="heart" class="fa-solid fa-heart"> </i> em volta redonda </span>
         </div>
 
     </footer>
