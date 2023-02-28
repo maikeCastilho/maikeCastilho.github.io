@@ -224,11 +224,7 @@ h2 {
 margin-top: 20px;
 }
 
-.card{
-    max-width: 460px;
-    margin-bottom: 60vh;
-    margin: auto;
-}
+
 
 .img-portfolio{
     border-radius: 10px;
@@ -374,4 +370,26 @@ z-index: 0;
 .rodape h5{
     color: #6b6b6b;
     text-align: left;
+}
+
+
+#imagem:hover{
+    /* opacity: 80%; */
+    /* transform:  */
+    animation: zoom 1s forwards;
+    z-index:inherit;
+    object-fit: cover;
+    
+}
+
+.card{
+    max-width: 460px;
+    margin-bottom: 60vh;
+    margin: auto;
+    overflow: hidden;
+}
+
+@keyframes zoom {
+    from { transform: translateX(0); }
+    to { transform: scale(1.1);}
 }
