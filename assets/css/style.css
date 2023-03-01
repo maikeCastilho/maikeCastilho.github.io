@@ -18,12 +18,24 @@
 
 body {
     background-color: #252525;
+    transition: 2.5s;
 }
 
 /*efeito de rolagem*/
 html {
     scroll-behavior: smooth;
 }
+
+body.dark-mode {
+    background-color: #dddddd;
+    color: #000000;
+    
+}
+
+.dark-mode #titulo-main{
+    color: #000000;
+}
+
 
 .navbar {
     z-index: 2;
@@ -373,7 +385,7 @@ z-index: 0;
 }
 
 
-#imagem:hover{
+img:hover{
     /* opacity: 80%; */
     /* transform:  */
     animation: zoom 1s forwards;
@@ -391,5 +403,5 @@ z-index: 0;
 
 @keyframes zoom {
     from { transform: translateX(0); }
-    to { transform: scale(1.1);}
+    to { transform: scale(1.1)  }
 }
