@@ -26,15 +26,15 @@ html {
     scroll-behavior: smooth;
 }
 
-body.dark-mode {
+/* body.dark-mode {
     background-color: #dddddd;
     color: #000000;
     
-}
+} */
 
-.dark-mode #titulo-main{
+/* .dark-mode #titulo-main{
     color: #000000;
-}
+} */
 
 
 .navbar {
