@@ -17,7 +17,7 @@
 }
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(31, 31, 31);
     /* transition: 2.5s; */
 }
 
@@ -82,7 +82,7 @@ i {
 }
 
 #titulo-main {
-    color: rgb(0, 0, 0);
+    color: aqua;
     font-weight: 700;
     font-size: 8vmin;
     font-family: test;
@@ -91,12 +91,12 @@ i {
 
 #text-al1 {
     font-size: 3vmin;
-    color: #000000;
+    color: #ffffff;
 }
 
 #text-al2 {
     font-size: 3vmin;
-    color: #000000;
+    color: #ffffff;
 }
 
 #particles-js {
