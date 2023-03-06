@@ -388,7 +388,7 @@ z-index: 0;
 }
 
 
-img:hover{
+#imagem:hover{
     /* opacity: 80%; */
     /* transform:  */
     animation: zoom 1s forwards;
@@ -407,4 +407,15 @@ img:hover{
 @keyframes zoom {
     from { transform: translateX(0); }
     to { transform: scale(1.1)  }
+}
+
+@media screen and (max-width:520px){
+    h2, #titulo-icon{
+        font-size: 6vh;
+    }
+
+    /* #sub-titulo{
+        font-size: 1px;
+    }
+     */
 }
