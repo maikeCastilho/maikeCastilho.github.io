@@ -234,7 +234,9 @@ h2 {
     color:#6b6b6b;
     font-family: consolas;
     font-size: 25px;
+    
 }
+
 .carousel-inner{
 margin-top: 20px;
 }
@@ -301,7 +303,6 @@ margin-top: 20px;
     text-align: left;
     font-family: consolas;
     font-size: 2vh;
-
 }
 
 
@@ -413,9 +414,8 @@ z-index: 0;
     h2, #titulo-icon{
         font-size: 6vh;
     }
-
-    /* #sub-titulo{
-        font-size: 1px;
+    #titulo-section p{
+        font-size: 20px;
     }
-     */
 }
+
