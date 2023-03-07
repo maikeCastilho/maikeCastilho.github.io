@@ -89,15 +89,14 @@ i {
     letter-spacing: 4px;
 }
 
-#text-al1 {
+
+
+#text-al{
     font-size: 3vmin;
     color: #ffffff;
 }
 
-#text-al2 {
-    font-size: 3vmin;
-    color: #ffffff;
-}
+
 
 #particles-js {
     position: absolute;
@@ -417,5 +416,13 @@ z-index: 0;
     #titulo-section p{
         font-size: 20px;
     }
+
+    #titulo-main{
+        font-size: 40px;
+    }
+
+    #text-al{
+        font-size: 15px;
 }
 
+}
