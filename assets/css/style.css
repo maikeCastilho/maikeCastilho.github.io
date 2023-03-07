@@ -173,6 +173,26 @@ h2 {
     margin-top: 5vh;
 }
 
+
+
+#conhecimento {
+    margin-top: 20vh;
+    /* background-color: #f8f9fa; */
+    padding: 80px 0;
+  }
+  
+  .card {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+
+
+
+
+
 #skills {
     margin-top: 5vh;
     padding-top: 190px;
@@ -320,8 +340,6 @@ h2 {
     font-size: 2vh;
 }
 
-
-
 #contato-content {
     align-items: baseline;
     justify-content: center;
@@ -329,7 +347,6 @@ h2 {
 }
 
 #contato-form {
-    
     background-color: #2B3035;
     height: 400px;
     border-radius: 15px;
