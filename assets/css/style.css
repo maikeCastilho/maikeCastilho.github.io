@@ -174,7 +174,8 @@ h2 {
 
 #skills-icones{
     margin-top: 5vh;
-    background-color: #22262b;
+    /* background-color: #22262b; */
+    height: 350px;
     border-radius: 20px;
     border-width: 4px;
     /* border-style: solid; */
