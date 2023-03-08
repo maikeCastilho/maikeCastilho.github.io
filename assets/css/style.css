@@ -21,12 +21,13 @@ body {
     height: 100%;
     margin: 0;
     /* transition: 2.5s; */
+
 }
 
 /*efeito de rolagem*/
 html {
     scroll-behavior: smooth;
-    
+
 }
 
 /* body.dark-mode {
@@ -105,7 +106,8 @@ i {
     position: absolute;
     width: 100%;
     height: 100%;
-    z-index: 0;
+    z-index: 1;
+
 
 }
 
@@ -127,14 +129,15 @@ i {
 #sobre {
     margin-top: 30vh;
     /* background-color:#2B3035; */
-    padding-top: 170px; /*faz o controle de altura do smooth behaviour*/
+    padding-top: 170px;
+    /*faz o controle de altura do smooth behaviour*/
     /* padding-bottom: 15vh; */
     align-items: center;
     align-content: center;
     /* position: absolute; */
     z-index: 1;
     width: 100%;
-    
+
 
 }
 
@@ -177,17 +180,30 @@ h2 {
 
 #conhecimento {
     margin-top: 20vh;
-    /* background-color: #f8f9fa; */
-    padding: 80px 0;
-  }
-  
-  .card {
+}
+
+#cursos {
+    margin-top: 7vh;
+}
+
+#cursos .card {
+    color: #ffffff;
+    background-color: transparent;
+    border-style: solid;
+    border-image: linear-gradient(to right, #00f7ff, #00ff80) 1;
+    border-width: 2px;
+}
+
+.card {
     transition: transform 0.2s ease-in-out;
-  }
-  
-  .card:hover {
+}
+
+.card:hover {
     transform: translateY(-10px);
-  }
+}
+
+
+
 
 
 
@@ -218,11 +234,20 @@ h2 {
 #icon-skill {
     display: flex;
     flex-direction: column;
-    color: aqua;
+    color: rgb(22, 250, 250);
+   
+    /* -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; */
     text-align: center;
 
 
 }
+
+/* .fa-brands:hover{
+    border-style: solid;
+    border-image: linear-gradient(to right, #00f7ff, #00ff80) 1;
+    border-width: 1px;
+} */
 
 #icon-name-skills {
     color: #fff;
@@ -234,7 +259,8 @@ h2 {
 #projetos {
     /* background-color:#2B3035; */
     margin-top: 10vh;
-    padding-top: 190px;/* controle do smooth behaviour*/
+    padding-top: 190px;
+    /* controle do smooth behaviour*/
     height: 800px;
     align-items: center;
     justify-content: center;
@@ -324,7 +350,6 @@ h2 {
     margin-top: 30vh;
 }
 
-
 #titulo-contato h2 {
     font-family: consolas;
     color: aqua;
@@ -343,7 +368,6 @@ h2 {
 #contato-content {
     align-items: baseline;
     justify-content: center;
-
 }
 
 #contato-form {
@@ -469,7 +493,7 @@ h2 {
 
 }
 
-.animation{
+.animation {
     opacity: 0;
     transform: translateY(100px);
     transition: opacity 1s ease, transform 2s ease;
