@@ -40,14 +40,19 @@ html {
     color: #000000;
 } */
 nav {
-    background-color: #00ff80;
+    color: #00ff80;
 }
 
-.navbar {
+.navbar{
     z-index: 2;
     position: fixed;
     width: 100%;
     top: 0%;
+   
+}
+
+#nav-bar{
+    background-color: #00f7ff;
 }
 
 a {
@@ -113,7 +118,7 @@ i {
 #botao-inicio {
     /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
     border: none;
-    background-image: linear-gradient(to right, #00f7ff, #00ff80);
+    background-image: linear-gradient(to bottom, #00f7ff, #00ffb3);
     color: #414141;
     position: relative;
     box-shadow: 0 0 5px 0 rgb(52, 191, 255) inset, 0 0 4px 0px rgb(106, 208, 255);
