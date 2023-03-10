@@ -39,7 +39,7 @@ html {
 /* .dark-mode #titulo-main{
     color: #000000;
 } */
-nav{
+nav {
     background-color: #00ff80;
 }
 
@@ -88,11 +88,14 @@ i {
 }
 
 #titulo-main {
-    color: aqua;
+    /* color: aqua; */
     font-weight: 700;
     font-size: 8vmin;
     font-family: test;
     letter-spacing: 4px;
+    background: linear-gradient(to bottom, #00ffff, #00ff80);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 #text-al {
@@ -132,9 +135,6 @@ i {
     /* position: absolute; */
     z-index: 1;
     width: 100%;
-    
-
-
 }
 
 .sobre-titulo-principal {
@@ -172,11 +172,11 @@ h2 {
     margin-top: 5vh;
 }
 
-#conhecimento{
+#conhecimento {
     margin-top: 30vh;
 }
 
-#cursos{
+#cursos {
     margin-top: 7vh;
 }
 
@@ -224,12 +224,14 @@ h2 {
 #icon-skill {
     display: flex;
     flex-direction: column;
-    color: rgb(22, 250, 250);
+    /* color: rgb(22, 250, 250); */
 
-    /* -webkit-background-clip: text; 
-    -webkit-text-fill-color: transparent; */
-    text-align: center;
-
+    /* -webkit-background-clip: text;  */
+    /* -webkit-text-fill-color: transparent; */
+    /* text-align: center; */
+    background: linear-gradient(to bottom, #00f7ff, #0095a8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
 }
 
@@ -239,12 +241,6 @@ h2 {
     border-width: 1px;
 } */
 
-#icon-name-skills {
-    color: #fff;
-    font-size: 20px;
-    font-family: consolas;
-    text-align: center;
-}
 
 #projetos {
     /* background-color:#2B3035; */
@@ -262,7 +258,7 @@ h2 {
 }
 
 #titulo-section {
-    color: rgb(0, 247, 255);
+    /* color: rgb(0, 247, 255); */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -272,6 +268,9 @@ h2 {
     font-weight: 900;
     font-size: 8vh;
     padding-top: 7px;
+    background: linear-gradient(to bottom, #00ffff, #00f7ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 #titulo-section2 {
@@ -407,12 +406,19 @@ h2 {
     justify-content: center;
 }
 
-#text-footer{
-    font-size: 20px;
+#text-footer {
+    font-size: 15px;
+    font-weight: 400;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #fff;
     margin-bottom: 40px;
 }
+
+#tt {
+    color: #00f7ff;
+}
+
+a {}
 
 #heart {
     color: aqua;
@@ -420,7 +426,7 @@ h2 {
 
 #footer-text {
     color: #6b6b6b;
-    font-weight: 700;
+    font-weight: 300;
     margin-top: 100px;
 }
 
@@ -513,7 +519,7 @@ h2 {
 
 ::-webkit-scrollbar-thumb {
     /* background-color: #00f7ff; */
-    background-image: linear-gradient(to bottom, #00f7ff, #00ff80 );
+    background-image: linear-gradient(to bottom, #00f7ff, #00ff80);
     border-radius: 50px;
 }
 
@@ -521,10 +527,12 @@ h2 {
     background-color: #0ea5aa;
 }
 
-::-webkit-scrollbar-button { /* cor dos botões de seta */
-    display:none; /*desabilita os botões de rolagem da página*/
+::-webkit-scrollbar-button {
+    /* cor dos botões de seta */
+    display: none;
+    /*desabilita os botões de rolagem da página*/
 }
 
-::-webkit-scrollbar-button:hover{
+::-webkit-scrollbar-button:hover {
     /* cor dos botões de seta quando hover */
 }
