@@ -117,7 +117,8 @@ i {
 }
 
 #botao-inicio {
-   width: 170px;
+   min-width: 150px;
+   max-height: 50px;
     /*  height: 50px; */
     margin-top: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -264,7 +265,8 @@ h2 {
 }
 
 #titulo-icon {
-    color: #fff;
+    color: #ffffff;
+    font-size: 60px;
 }
 
 #titulo-section {
@@ -497,6 +499,10 @@ h2 {
 
     #text-al {
         font-size: 15px;
+    }
+
+    #titulo-main{
+        font-size: 11vmin;
     }
 
 }
