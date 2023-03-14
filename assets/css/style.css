@@ -46,7 +46,7 @@ html {
     position: fixed;
     width: 100%;
     top: 0%;
-    background-color: #000000;
+    background-color: rgb(8, 8, 8);;
 }
 
 #nav{
@@ -278,30 +278,27 @@ h2 {
     font-weight: 900;
     font-size: 8vh;
     padding-top: 7px;
-    background: linear-gradient(to bottom, #00ffff, #00f7ff);
+    color: #00f7ff;
+    /* background: linear-gradient(to bottom, #00ffff, #00f7ff);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
 }
 
 #titulo-section2 {
     display: flex;
     align-items: center;
     gap: 1vh;
-
 }
 
 #titulo-section p {
     color: #6b6b6b;
     font-family: consolas;
     font-size: 25px;
-
 }
 
 .carousel-inner {
     margin-top: 20px;
 }
-
-
 
 .img-portfolio {
     border-radius: 10px;
@@ -400,7 +397,6 @@ h2 {
 
 #modal-button {
     background-color: #2B3035;
-
 }
 
 .rodape {
@@ -428,7 +424,6 @@ h2 {
     color: #00f7ff;
 }
 
-a {}
 
 #heart {
     color: aqua;
