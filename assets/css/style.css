@@ -54,7 +54,8 @@ html {
 }
 
 a {
-    font-family: test;
+    text-decoration: none;
+    color: aqua;
 }
 
 .nav-link {
