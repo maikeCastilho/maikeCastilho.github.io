@@ -46,7 +46,7 @@ html {
     position: fixed;
     width: 100%;
     top: 0%;
-    background-color: #000000;
+    background-color: rgb(8, 8, 8);
 }
 
 #nav{
