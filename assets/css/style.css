@@ -5,6 +5,7 @@
         -truetype-aat (Apple Advanced typography)
         -svg 
 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 @font-face {
     font-family: test;
@@ -39,20 +40,17 @@ html {
 /* .dark-mode #titulo-main{
     color: #000000;
 } */
-nav {
-    color: #00ff80;
-}
 
 .navbar{
     z-index: 2;
     position: fixed;
     width: 100%;
     top: 0%;
-   
+    background-color: #000000;
 }
 
-#nav-bar{
-    background-color: #00f7ff;
+#nav{
+ 
 }
 
 a {
@@ -95,17 +93,20 @@ i {
 #titulo-main {
     /* color: aqua; */
     font-weight: 700;
-    font-size: 8vmin;
+    font-size: 9vmin;
     font-family: test;
     letter-spacing: 4px;
-    background: linear-gradient(to bottom, #00ffff, #00ff80);
+    background: linear-gradient(to bottom, #00ffff, #00b8b8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 #text-al {
-    font-size: 3vmin;
-    color: #ffffff;
+    font-size: 2.5vmin;
+    margin-top: 30px;
+    color: #e2e2e2;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 400;
 }
 
 #particles-js {
@@ -116,12 +117,16 @@ i {
 }
 
 #botao-inicio {
-    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+   width: 170px;
+    /*  height: 50px; */
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: none;
-    background-image: linear-gradient(to bottom, #00f7ff, #00ffb3);
+    background-color: #00f7ff;
+    /* background: linear-gradient(to bottom, #00ffff, #007777); */
     color: #414141;
     position: relative;
-    box-shadow: 0 0 5px 0 rgb(52, 191, 255) inset, 0 0 4px 0px rgb(106, 208, 255);
+    /* box-shadow: 0 0 5px 0 rgb(52, 191, 255) inset, 0 0 4px 0px rgb(106, 208, 255); */
 }
 
 #botao-inicio:hover {
@@ -524,7 +529,7 @@ a {}
 
 ::-webkit-scrollbar-thumb {
     /* background-color: #00f7ff; */
-    background-image: linear-gradient(to bottom, #00f7ff, #00ff80);
+    background-image: linear-gradient(to bottom, #00f7ff, #00ffb3);
     border-radius: 50px;
 }
 
