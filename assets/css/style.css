@@ -5,6 +5,8 @@
         -truetype-aat (Apple Advanced typography)
         -svg 
 */
+
+/*IMPORTANDO FONTES*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 @font-face {
@@ -22,40 +24,26 @@ body {
     height: 100%;
     margin: 0;
     /* transition: 2.5s; */
-
 }
 
-/*efeito de rolagem*/
+/*EFEITO DE ROLAGEM*/
 html {
     scroll-behavior: smooth;
-
 }
-
-/* body.dark-mode {
-    background-color: #dddddd;
-    color: #000000;
-    
-} */
-
-/* .dark-mode #titulo-main{
-    color: #000000;
-} */
 
 .navbar{
     z-index: 2;
     position: fixed;
     width: 100%;
     top: 0%;
-    background-color: rgb(8, 8, 8);
+    background-color: #000000;
 }
 
-#nav{
- 
-}
-
-a {
-    text-decoration: none;
+/* EDITANDO LINKS */
+a{
+    font-family: test;
     color: aqua;
+    text-decoration: none;
 }
 
 .nav-link {
@@ -102,7 +90,7 @@ i {
     -webkit-text-fill-color: transparent;
 }
 
-#text-al {
+#text-al{
     font-size: 2.5vmin;
     margin-top: 30px;
     color: #e2e2e2;
@@ -209,8 +197,6 @@ h2 {
     transform: translateY(-10px);
 }
 
-
-
 #skills {
     margin-top: 10vh;
     padding-top: 190px;
@@ -237,14 +223,12 @@ h2 {
     display: flex;
     flex-direction: column;
     /* color: rgb(22, 250, 250); */
-
     /* -webkit-background-clip: text;  */
     /* -webkit-text-fill-color: transparent; */
     /* text-align: center; */
     background: linear-gradient(to bottom, #00f7ff, #0095a8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
 }
 
 /* .fa-brands:hover{
@@ -252,7 +236,6 @@ h2 {
     border-image: linear-gradient(to right, #00f7ff, #00ff80) 1;
     border-width: 1px;
 } */
-
 
 #projetos {
     /* background-color:#2B3035; */
@@ -332,7 +315,6 @@ h2 {
 
 #button-card-footer {
     margin-left: 220px;
-
 }
 
 .card-footer {
@@ -483,11 +465,12 @@ h2 {
     }
 }
 
+/* RESPONSIVIDADE DOS ELEMENTOS */
 @media screen and (max-width:520px) {
 
     h2,
     #titulo-icon {
-        font-size: 6vh;
+        font-size: 7vh;
     }
 
     #titulo-section p {
@@ -502,21 +485,32 @@ h2 {
         font-size: 15px;
     }
 
-    #titulo-main{
-        font-size: 11vmin;
+    #foto-perfil{
+        width: 250px;
     }
+
+    #sobre-texto{
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    .carousel-item{
+        padding: 30px;
+    }
+
 
 }
 
+/* ANIMAÇÃO DE ENTRADA DAS SEÇÕES */
 .animation {
     opacity: 0;
     transform: translateY();
-    transition: opacity 4s ease, transform 1s ease;
+    transition: opacity 7s ease, transform 2s ease;
 }
 
 .animation.aparecer {
     opacity: 2;
-    transform: translateY(30px);
+    transform: translateY(60px);
 }
 
 
