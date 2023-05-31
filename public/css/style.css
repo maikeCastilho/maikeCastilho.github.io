@@ -11,12 +11,12 @@
 
 @font-face {
     font-family: test;
-    src: url(../font/TypoGraphica_demo.otf) format('opentype');
+    src: url(../../assets/font/TypoGraphica_demo.otf) format('opentype');
 }
 
 @font-face {
     font-family: consolas;
-    src: url(../font/CONSOLAB.TTF);
+    src: url(../../assets/font/CONSOLAB.TTF);
 }
 
 body {
@@ -184,7 +184,7 @@ h2 {
     color: #ffffff;
     background-color: transparent;
     border-style: solid;
-    border-image: linear-gradient(to right, #00f7ff, #00ff80) 1;
+    border-image: linear-gradient(to right, #00f7ff, #00ffbf) 1;
     border-width: 2px;
 
 }
@@ -520,7 +520,7 @@ h2 {
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #2B3035;
+    background-color: #000000;
 }
 
 ::-webkit-scrollbar-thumb {

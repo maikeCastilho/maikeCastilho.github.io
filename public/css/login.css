@@ -1,0 +1,292 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#senhaRec{
+    color: #008c9e;
+}
+.centralize {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.loading {
+    background: rgba(3, 3, 3, 0.753);
+ 
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.loading label{
+    font-size: 220px;
+}
+
+#l-direito {
+    /* background-image: linear-gradient(to right, rgb(13, 26, 27), rgb(16, 53, 48)); */
+    background-color: black;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 50%;
+}
+
+#logo-main{
+    margin-top: 43vh;
+    margin-left: 20px;
+    position: fixed;
+
+}
+
+#titulo-form {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    padding-top: 20px;
+    margin-top: 40%;
+    margin-bottom: 30px;
+}
+
+p {
+    background-color: aqua;
+    z-index: 1;
+    
+}
+
+
+#divisoria {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #008c9e;
+    gap: 7px;
+    margin-top: 10px;
+}
+
+
+.btn-bd-accent{
+    color: aqua;
+    border-color: aqua;
+}
+
+.btn-bd-accent:hover{
+    background-color: black;
+    border-color: aqua;
+    color: aqua;
+}
+
+.fa-brands{
+    padding-right: 10px;
+    font-size: 16px;
+    color: aqua;
+}
+
+#icons{
+    margin-bottom: 50px;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(0, 63, 63);
+    gap: 100px;
+    background-color: aliceblue;
+    width: 100px;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+#sub-titulo-form {
+    color: rgba(255, 255, 255, 0.801);
+    border-bottom: 2px solid rgba(90, 90, 90, 0.801);
+    width: 400px;
+}
+
+#blur {
+    backdrop-filter: blur(70px);
+    -webkit-backdrop-filter: blur(5px);
+    height: 100%;
+    width: 500px;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0%;
+}
+
+.cadastro-form {
+    background-color: #222222;
+    display: flex;
+    align-items: left;
+    padding: 10%;
+    flex-direction: column;
+    height: 100%;
+    /* align-items: left; */
+    /* margin-left: 80px;
+    margin-right: 80px; */
+    /* box-sizing: border-box; */
+    /* margin-bottom: 0px;
+    padding-bottom: 0px; */
+}
+
+.btn{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 43vh;
+}
+
+label {
+    color: #bbbbbb;
+}
+#button-recover{
+    padding: 0px;
+    margin: 0px;
+    
+}
+#caixa-text {
+    min-width: 400px;
+    max-width: 400px;
+}
+
+/* #login-button-a{
+     display: flex;
+    justify-content: left;
+    align-items: left;
+    text-align: center;
+    margin-left: 50%; 
+     width: 300px; 
+} */
+
+#form-espac{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#register-button{
+    background-color: aqua;
+    color: #2e2e2e;
+    font-weight: 700;
+
+}
+
+#register-button:hover{
+    background-color: rgb(0, 189, 189);
+
+    
+}
+
+@media screen and (max-width: 1010px) {
+ 
+    body{
+        overflow: auto;
+   
+       
+    }
+   
+    #img {
+        height: 140%;
+        width: 100%;
+    }
+
+    #blur {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        height: 140%;
+        opacity: 1;
+        display: flex;
+        justify-content: center;
+        background-color: #222222;
+    }
+
+}
+
+
+/* /* .form-group {
+    position: relative;
+  } */
+  
+  /* .form-control {
+    padding-right: 40px; /* espaço para o botão de visualizar senha 
+  } */
+  
+  /* .toggle-password {
+    position: absolute;
+    top: 18%;
+    right: -176px;
+    transform: translateY(-50%);
+    border: none;
+    background-color: transparent;
+  } */
+  
+  /* .toggle-password:focus {
+    outline: none;
+    background-color: transparent;
+  }
+  
+  .toggle-password i {
+    font-size: 20px;
+    color: #5f5f5f;
+  }
+
+  #toggle-senha:hover{
+    background-color: transparent;
+    width: 10px;
+}
+
+  .toggle-password.active i.fa-eye {
+    display: none;
+  }
+  
+  .toggle-password.active i.fa-eye-slash {
+    display: block;
+  }
+
+*/
+
+ .form-group {
+        position: relative;
+    }
+
+    .form-control {
+        padding-right: 40px;
+        height: 36px; /* Adicione essa linha para definir uma altura fixa */
+        
+    }
+
+    .input-group-append {
+        position: absolute;
+        right: 0;
+        top: 52%;
+        transform: translateY(-50%);
+        height: 100%;
+        display: flex;
+        align-items: center;
+        /* padding: 50 10 50; */
+    }
+
+    .input-group-append button {
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        margin: 0;
+        cursor: pointer;
+    }
+
+
+    i{
+        padding-right: 10px;
+    }
+
+    .erro {
+        display: block;
+        height: 18px; /* Adicione essa linha para definir uma altura fixa */
+    }
